@@ -1,0 +1,900 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Bootstrap CSS -->
+  <!-- https://cdnjs.com/libraries/twitter-bootstrap/5.0.0-beta1 -->
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/css/bootstrap.min.css" />
+  <!-- google font-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap"
+    rel="stylesheet">
+
+  <!-- Icons: https://getbootstrap.com/docs/5.0/extend/icons/ -->
+  <!-- https://cdnjs.com/libraries/font-awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+  <!-- Place favicon.ico in the root directory -->
+  <link rel="shortcut icon" href="./logo.png" type="image/x-icon">
+  <link rel="stylesheet" type="text/css" href="font/flaticon.css">
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="responsive.css">
+  <!-- suport internet expolorer -->
+  <script src="./js/html5shiv.min.js"></script>
+
+
+  <title>MahMasum Exam 3 Bootstrap</title>
+</head>
+
+<body>
+  <!-- header start -->
+  <header>
+    <div class="header-top bg-dark text-white">
+      <div class="container">
+        <div class="row">
+          <div class="col-xxl-3 col-lg-3 col-md-6">
+            <div class="email-box">
+              <span>
+                <i class="far fa-envelope text-primary"></i>
+                mahmasum94@gmail.com
+              </span>
+            </div>
+          </div>
+          <div class="col-xxl-3 col-lg-3 col-md-6">
+            <div class="call-box">
+              <span>
+                <i class="fas fa-phone-volume text-primary"></i>
+                +60142726575
+              </span>
+            </div>
+          </div>
+          <div class="col-xxl-6 col-lg-6 col-md-8 mt-3">
+            <div class="time-box text-end">
+              <span>
+                <i class="far fa-clock text-primary"></i>
+                opening hour: 9:00am-9:00pm
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+  <nav class="navbar navbar-expand-lg navbar-light header-bottom bg-white sticky-top">
+
+    <div class="container">
+      <a class="navbar-brand" href="#"><img src="img/logo1.jpg" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <ul class="navbar-nav m-auto">
+
+          <li>
+            <a class="active" href="#">Home <i class="fas fa-angle-down"></i></a>
+
+            <ul>
+              <li><a href="#">home one</a></li>
+              <li><a href="#">home two</a></li>
+              <li><a href="#">home three</a></li>
+              <li><a href="#">home four</a></li>
+            </ul>
+
+          </li>
+          <li>
+            <a href="#">pages <i class="fas fa-angle-down"></i></a>
+            <ul>
+              <li><a href="#">about</a></li>
+              <li><a href="#">service</a></li>
+              <li><a href="#">service details</a></li>
+              <li><a href="#">project</a></li>
+              <li><a href="#">project details</a></li>
+              <li><a href="#">blog</a></li>
+              <li><a href="#">blog details</a></li>
+              <li><a href="#">contact</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">projects <i class="fas fa-angle-down"></i></a>
+            <ul>
+              <li><a href="#">project</a></li>
+              <li><a href="#">project details</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">services <i class="fas fa-angle-down"></i></a>
+            <ul>
+              <li><a href="#">service</a></li>
+              <li><a href="#">service details</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">blog <i class="fas fa-angle-down"></i></a>
+            <ul>
+              <li><a href="#">blog</a></li>
+              <li><a href="#">blog details</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">contact</a>
+          </li>
+        </ul>
+        <div class="menu-bar">
+          <i class="flaticon-menu"></i>
+        </div>
+        <div class="search-bar">
+          <i class="fas fa-search"></i>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <a id="scrol-bar" href="#"></a>
+  <!-- header end -->
+
+  <!-- baner section start-->
+  <section class="baner-section">
+    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+
+      <div class="carousel-inner">
+
+        <div class="carousel-item active" data-bs-interval="10000">
+
+          <div class="custom-shape-divider-bottom-1625820023">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+              preserveAspectRatio="none">
+              <path
+                d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+                class="shape-fill"></path>
+            </svg>
+          </div>
+
+          <img src="img/ia_100000073.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h1>labratory for testing and <br> medical research</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis, magnam temporibus! Error, sint <br>
+              repellendus! Error voluptas deleniti excepturi aspernatur accusamus.</p>
+            <a class="benr-btn" href="#">book appoinment</a>
+          </div>
+        </div>
+
+        <div class="carousel-item" data-bs-interval="2000">
+
+          <div class="custom-shape-divider-bottom-1625820023">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+              preserveAspectRatio="none">
+              <path
+                d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+                class="shape-fill"></path>
+            </svg>
+          </div>
+
+          <img src="img/ia_100000072.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h1>surgical lav with A <br> protective layer</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis, magnam temporibus! Error, sint <br>
+              repellendus! Error voluptas deleniti excepturi aspernatur accusamus.</p>
+            <a class="benr-btn" href="#">book appoinment</a>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+
+          <div class="custom-shape-divider-bottom-1625820023">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+              preserveAspectRatio="none">
+              <path
+                d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+                class="shape-fill"></path>
+            </svg>
+          </div>
+
+
+          <img src="img/ia_100000074.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h1>science is nothing but <br> perception</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis, magnam temporibus! Error, sint <br>
+              repellendus! Error voluptas deleniti excepturi aspernatur accusamus.</p>
+            <a class="benr-btn" href="#">book appoinment</a>
+          </div>
+        </div>
+
+      </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+        <span><i class="fas fa-arrow-left"></i></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+        <span><i class="fas fa-arrow-right"></i></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+  <!-- baner section end-->
+
+  <!--research section start-->
+  <section class="research-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-xxl-3 col-xl-3 col-lg-6">
+          <div class="research-box box-1 text-center">
+            <i class="flaticon-lab-tool"></i>
+            <h4>chemical research</h4>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa veritatis temporibus animi ex iste</p>
+          </div>
+        </div>
+        <div class="col-xxl-3 col-xl-3 col-lg-6">
+          <div class="research-box box-2 text-center">
+            <i class="flaticon-laboratory"></i>
+            <h4>advance microscopy</h4>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa veritatis temporibus animi ex iste</p>
+          </div>
+        </div>
+        <div class="col-xxl-3 col-xl-3 col-lg-6">
+          <div class="research-box box-3 text-center">
+            <i class="flaticon-cells"></i>
+            <h4>moleculer biology</h4>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa veritatis temporibus animi ex iste</p>
+          </div>
+        </div>
+        <div class="col-xxl-3 col-xl-3 col-lg-6">
+          <div class="research-box box-4 text-center">
+            <i class="flaticon-flask"></i>
+            <h4>pathlogy testing</h4>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa veritatis temporibus animi ex iste</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- research section end-->
+
+  <!--about section start-->
+  <section class="about-section">
+    <img class="img-fluid" src="img/ia_100000019.png" alt="">
+    <div class="container">
+      <div class="row about-item">
+        <div class="col-xxl-5 col-xl-5 col-lg-5">
+          <div class="img-box">
+            <img src="img/ia_100000017.jpg" alt="" class="img1">
+            <img src="img/ia_100000018.jpg" alt="" class="img2">
+          </div>
+        </div>
+        <div class="col-xxl-7 col-xl-7 col-lg-7">
+          <div class="wrap-about-text">
+            <h6>about us</h6>
+            <h1>accredited quality we'll provide you always latest technology</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio quam voluptates temporibus blanditiis
+              beatae corporis debitis est veritatis veniam laudantium!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae esse alias cum possimus dolores adipisci
+              autem, cumque nulla impedit error est, hic voluptates culpa voluptate dolor amet nemo, inventore
+              praesentium!</p>
+            <li><i class="flaticon-comment"></i> <a href="#">led by passionate experts</a></li>
+            <li><i class="flaticon-comment"></i> <a href="#">safe diagonies and effective thearapies</a></li>
+            <li><i class="flaticon-comment"></i> <a href="#">fully equipment</a></li>
+            <li><i class="flaticon-comment"></i> <a href="#">affordable health packages</a></li>
+            <a class="about-btn" href="#">discover more</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <!-- about section end-->
+
+  <!-- service section start-->
+  <section class="service-section">
+    <img src="img/ia_100000020.png" alt="" class="img1">
+    <div class="container">
+      <div class="row wrap-service-item">
+        <div class="tittle text-center">
+          <h6 class="text-primary mb-3">services</h6>
+          <h1 class="mb-5">our core services</h1>
+        </div>
+        <div class="col-xxl-4 col-xl-4 col-lg-4">
+          <div class="service-item d-flex">
+            <div class="icon-box">
+              <i class="flaticon-microscope-1"></i>
+            </div>
+            <div class="text-box">
+              <h4>advanced microscopy</h4>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni reiciendis saepe, sapiente</p>
+              <a href="#">read more <i class="fas fa-plus"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xxl-4 col-xl-4 col-lg-4">
+          <div class="service-item d-flex">
+            <div class="icon-box">
+              <i class="flaticon-microscope-1"></i>
+            </div>
+            <div class="text-box">
+              <h4>advanced microscopy</h4>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni reiciendis saepe, sapiente</p>
+              <a href="#">read more <i class="fas fa-plus"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xxl-4 col-xl-4 col-lg-4">
+          <div class="service-item d-flex">
+            <div class="icon-box">
+              <i class="flaticon-microscope-1"></i>
+            </div>
+            <div class="text-box">
+              <h4>advanced microscopy</h4>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni reiciendis saepe, sapiente</p>
+              <a href="#">read more <i class="fas fa-plus"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xxl-4 col-xl-4 col-lg-4">
+          <div class="service-item d-flex">
+            <div class="icon-box">
+              <i class="flaticon-microscope-1"></i>
+            </div>
+            <div class="text-box">
+              <h4>advanced microscopy</h4>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni reiciendis saepe, sapiente</p>
+              <a href="#">read more <i class="fas fa-plus"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xxl-4 col-xl-4 col-lg-4">
+          <div class="service-item d-flex">
+            <div class="icon-box">
+              <i class="flaticon-microscope-1"></i>
+            </div>
+            <div class="text-box">
+              <h4>advanced microscopy</h4>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni reiciendis saepe, sapiente</p>
+              <a href="#">read more <i class="fas fa-plus"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xxl-4 col-xl-4 col-lg-4">
+          <div class="service-item d-flex">
+            <div class="icon-box">
+              <i class="flaticon-microscope-1"></i>
+            </div>
+            <div class="text-box">
+              <h4>advanced microscopy</h4>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni reiciendis saepe, sapiente</p>
+              <a href="#">read more <i class="fas fa-plus"></i></a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <img src="img/ia_100000021.png" alt="" class="img2">
+  </section>
+  <!-- service section end-->
+
+  <!--  project section start-->
+  <section class="project-section">
+    <div class="container">
+      <div class="row">
+        <div class="tittle text-center">
+          <h6 class="text-primary mb-3">recent project</h6>
+          <h1 class="mb-5">our recent project case</h1>
+        </div>
+        <div class="col-xxl-3 col-xl-3 col-lg-3">
+          <div class="project-item">
+            <div class="project-img-box">
+              <img src="img/ia_100000034.jpg" alt="">
+              <i class="fas fa-arrow-right"></i>
+            </div>
+            <div class="project-text-box">
+              <h4>chemical research</h4>
+              <p>lab research</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xxl-3 col-xl-3 col-lg-3">
+          <div class="project-item">
+            <div class="project-img-box">
+              <img src="img/ia_100000035.jpg" alt="">
+              <i class="fas fa-arrow-right"></i>
+            </div>
+            <div class="project-text-box">
+              <h4>chemical research</h4>
+              <p>lab research</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xxl-3 col-xl-3 col-lg-3">
+          <div class="project-item">
+            <div class="project-img-box">
+              <img src="img/ia_100000036.jpg" alt="">
+              <i class="fas fa-arrow-right"></i>
+            </div>
+            <div class="project-text-box">
+              <h4>chemical research</h4>
+              <p>lab research</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xxl-3 col-xl-3 col-lg-3">
+          <div class="project-item">
+            <div class="project-img-box">
+              <img src="img/ia_100000037.jpg" alt="">
+              <i class="fas fa-arrow-right"></i>
+            </div>
+            <div class="project-text-box">
+              <h4>chemical research</h4>
+              <p>lab research</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--project  section end-->
+
+  <!-- why section start-->
+  <section class="why-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-xxl-6 col-xl-6 col-lg-6">
+          <div class="why-text-box">
+            <h6 class="text-primary  mb-3">why choose us</h6>
+            <h1>over 20 years of experience with best results</h1>
+            <h6 class="mt-4 mb-4">your full-service lav for clinical trials.our mission is to ensure the generation of
+              accurate and precise findings</h6>
+            <li>
+              <i class="fas fa-check"></i>
+              <h4>free home sampling</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque consectetur suscipit facere
+                expedita, perspiciatis voluptatem?</p>
+            </li>
+            <li>
+              <i class="fas fa-check"></i>
+              <h4>high- end technology</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque consectetur suscipit facere
+                expedita, perspiciatis voluptatem?</p>
+            </li>
+            <li>
+              <i class="fas fa-check"></i>
+              <h4>patient support</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque consectetur suscipit facere
+                expedita, perspiciatis voluptatem?</p>
+            </li>
+            <li>
+              <i class="fas fa-check"></i>
+              <h4>500+ defferent tests</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque consectetur suscipit facere
+                expedita, perspiciatis voluptatem?</p>
+            </li>
+          </div>
+        </div>
+        <div class="col-xxl-6 col-xl-6 col-lg-6">
+          <div class="why-img-box">
+            <img src="img/ia_100000038.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- why  section end-->
+
+  <!-- team section start-->
+  <section class="team-section">
+    <div class="container">
+      <div class="row">
+        <div class="tittle text-center">
+          <h6 class="text-primary mb-3">expert team</h6>
+          <h1 class="mb-5">our expert scientist</h1>
+        </div>
+        <div class="col-xxl-3 col-xl-3 col-lg-3 wrap-team">
+          <div class="team-box">
+            <img src="img/ia_100000039.jpg" alt="">
+            <ul>
+              <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+              <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+              <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+            </ul>
+          </div>
+          <div class="down-tittle-box">
+            <h4>dr. ken morris</h4>
+            <p>senior scientist</p>
+          </div>
+        </div>
+        <div class="col-xxl-3 col-xl-3 col-lg-3 wrap-team">
+          <div class="team-box">
+            <img src="img/ia_100000040.jpg" alt="">
+            <ul>
+              <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+              <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+              <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+            </ul>
+          </div>
+          <div class="down-tittle-box">
+            <h4>dr. ken morris</h4>
+            <p>senior scientist</p>
+          </div>
+        </div>
+        <div class="col-xxl-3 col-xl-3 col-lg-3 wrap-team">
+          <div class="team-box">
+            <img src="img/ia_100000041.jpg" alt="">
+            <ul>
+              <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+              <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+              <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+            </ul>
+          </div>
+          <div class="down-tittle-box">
+            <h4>dr. ken morris</h4>
+            <p>senior scientist</p>
+          </div>
+        </div>
+        <div class="col-xxl-3 col-xl-3 col-lg-3 wrap-team">
+          <div class="team-box">
+            <img src="img/ia_100000042.jpg" alt="">
+            <ul>
+              <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+              <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+              <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+            </ul>
+          </div>
+          <div class="down-tittle-box">
+            <h4>dr. ken morris</h4>
+            <p>senior scientist</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- team section end-->
+
+  <!-- progress section start-->
+  <section class="progress-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-xxl-6 col-xl-6 col-lg-6">
+          <div class="wrap-progress-bar">
+            <h2>testing by our expert lab scientists</h2>
+            <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio consectetur atque ullam eos
+              accusamus ea magni fugit iusto nemo ipsa?</p>
+            <p class="p-prg">sample professinal</p>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 78%;" aria-valuenow="78" aria-valuemin="0"
+                aria-valuemax="100">78%</div>
+            </div>
+            <p class="p-prg">environmental testing</p>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 58%;" aria-valuenow="58" aria-valuemin="0"
+                aria-valuemax="100">58%</div>
+            </div>
+            <p class="p-prg">advaced microscopy</p>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 88%;" aria-valuenow="88" aria-valuemin="0"
+                aria-valuemax="88">88%</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xxl-6 col-xl-6 col-lg-6">
+          <div class="wrap-form">
+            <h2>make an appoinment</h2>
+            <form action="#">
+              <div class="row">
+                <div class="col">
+                  <input type="text" class="form-control mb-3 bg-light py-3 border-0" placeholder="Enter Your Name"
+                    aria-label="First name">
+                  <i class="far fa-user"></i>
+                </div>
+                <div class="col">
+                  <input type="email" class="form-control mb-3 bg-light py-3 border-0" placeholder="Enter Email"
+                    aria-label="Last name">
+                  <i class="far fa-envelope"></i>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <input type="text" class="form-control mb-3 bg-light py-3 border-0" placeholder="Enter Phone Number"
+                    aria-label="First name">
+                  <i class="fas fa-phone-alt"></i>
+                </div>
+                <div class="col">
+                  <select class="form-select mb-3 bg-light py-3 border-0" aria-label="Default select example">
+                    <option selected>Select Category</option>
+                    <option value="1">Cardiologist</option>
+                    <option value="2">Dermacologist</option>
+                    <option value="3">Alergist</option>
+                  </select>
+                  <i class="fas fa-chevron-down"></i>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <select class="form-select mb-3 bg-light py-3 border-0" aria-label="Default select example">
+                    <option selected>Time</option>
+                    <option value="1">9:00 am-9:00 pm</option>
+                    <option value="2">8:00 am-8:00 pm</option>
+                    <option value="3">10:00 am-10:00 pm</option>
+                  </select>
+                  <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="col">
+                  <input type="date" class="form-control mb-3 bg-light py-3 border-0" placeholder="Date"
+                    aria-label="First name">
+                  <i class="fas fa-table"></i>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col text-center">
+                  <button type="submit" class="sbtn"> book now</button>
+                </div>
+              </div>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- progress section end-->
+
+
+  <!-- counting-section start-->
+  <section class="counting-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-xxl-12">
+          <div class="wrap-counting-box d-flex text-center">
+            <img src="img/ia_100000043.png" alt="" class="img1">
+            <div class="counting-div div-1">
+              <strong>25</strong>
+              <p>wining award</p>
+            </div>
+            <div class="counting-div">
+              <strong>55</strong>
+              <p>our equipment</p>
+            </div>
+            <div class="counting-div">
+              <strong>425</strong>
+              <p>complete cases</p>
+            </div>
+            <div class="counting-div">
+              <strong>125</strong>
+              <p>expertise</p>
+            </div>
+            <img src="img/ia_100000044.png" alt="" class="img2">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--counting-section end-->
+
+
+  <!-- testimonial-section start-->
+  <section class="testimonial-section">
+    <div class="container">
+      <div class="row">
+        <div class="tittle text-center">
+          <h6 class="text-primary mb-3">testimonial</h6>
+          <h1 class="mb-5">what our client say</h1>
+        </div>
+        <div class="col-xxl-12 text-center">
+          <div class="wrap-testimonial">
+            <img src="img/ia_100000051.jpg" alt="">
+            <h4>johansen lisa</h4>
+            <h6>artist</h6>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta facere ab nostrum ducimus unde!
+              Consequatur nobis qui quam, laborum odio totam odit perspiciatis, eum sapiente vel harum, est cumque
+              pariatur officiis expedita. Ex dicta veniam ratione mollitia fuga non.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--testimonial-section end-->
+
+
+  <!-- news-section start-->
+  <section class="news-section">
+    <div class="container">
+      <div class="row">
+        <div class="tittle text-center">
+          <h6 class="text-primary mb-3">news</h6>
+          <h1 class="mb-5">our latest news</h1>
+        </div>
+        <div class="col-xxl-4 col-xl-4 col-lg-4">
+          <div class="news-item">
+            <div class="news-img-box">
+              <span>20 aug 2021</span>
+              <img src="img/ia_100000052.jpg" alt="">
+            </div>
+            <div class="news-text-box">
+              <h4><a href="#">when i spent the day at the medical facility</a></h4>
+              <a href="#">read more <i class="fas fa-plus"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xxl-4 col-xl-4 col-lg-4">
+          <div class="news-item">
+            <div class="news-img-box">
+              <span>20 aug 2021</span>
+              <img src="img/ia_100000053.jpg" alt="">
+            </div>
+            <div class="news-text-box">
+              <h4><a href="#">when i spent the day at the medical facility</a></h4>
+              <a href="#">read more <i class="fas fa-plus"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xxl-4 col-xl-4 col-lg-4">
+          <div class="news-item">
+            <div class="news-img-box">
+              <span>20 aug 2021</span>
+              <img src="img/ia_100000054.jpg" alt="">
+            </div>
+            <div class="news-text-box">
+              <h4><a href="#">when i spent the day at the medical facility</a></h4>
+              <a href="#">read more <i class="fas fa-plus"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--news-section end-->
+
+
+  <!-- virus-section start-->
+  <section class="virus-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-xxl-3 col-xl-3 col-lg-3">
+          <div class="virus-img">
+            <img src="img/ia_100000063.png" alt="">
+          </div>
+        </div>
+        <div class="col-xxl-3 col-xl-3 col-lg-3">
+          <div class="virus-img">
+            <img src="img/ia_100000064.png" alt="">
+          </div>
+        </div>
+        <div class="col-xxl-3 col-xl-3 col-lg-3">
+          <div class="virus-img">
+            <img src="img/ia_100000065.png" alt="">
+          </div>
+        </div>
+        <div class="col-xxl-3 col-xl-3 col-lg-3">
+          <div class="virus-img">
+            <img src="img/ia_100000066.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--virus-section end-->
+
+  <!--footer section start-->
+  <footer class="footer-section">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-xxl-3 col-lg-3 col-md-6">
+            <div class="footer-weiget">
+              <div class="footer-logo">
+                <img  src="img/logo1.jpg" alt="">
+              </div>
+              <div class="footer-content">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione, nam minus recusandae doloremque
+                  </p>
+              </div>
+              <div class="footer-weiget-social">
+                <ul class="social-menu">
+                  <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                  <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                  <li><a href="#"><i class="fab fa-pinterest"></i></a></li>
+                  <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-xxl-3 col-lg-3 col-md-6">
+            <div class="footer-weiget">
+              <div class="footer-title">
+                <h4>our services</h4>
+                <div class="br-div"></div>
+              </div>
+              <ul class="footer-link">
+                <li><a href="#"><i class="fas fa-angle-double-right"></i> free consultation</a></li>
+                <li><a href="#"><i class="fas fa-angle-double-right"></i> chemistry</a></li>
+                <li><a href="#"><i class="fas fa-angle-double-right"></i> expert team</a></li>
+                <li><a href="#"><i class="fas fa-angle-double-right"></i> forensic services</a></li>
+                <li><a href="#"><i class="fas fa-angle-double-right"></i> testimonial</a></li>
+                <li><a href="#"><i class="fas fa-angle-double-right"></i> scientific</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xxl-3 col-lg-3 col-md-6">
+            <div class="footer-weiget">
+              <div class="footer-title">
+                <h4>quick links</h4>
+                <div class="br-div"></div>
+              </div>
+              <ul class="footer-link">
+                <li><a href="#"><i class="fas fa-angle-double-right"></i> free consultation</a></li>
+                <li><a href="#"><i class="fas fa-angle-double-right"></i> chemistry</a></li>
+                <li><a href="#"><i class="fas fa-angle-double-right"></i> expert team</a></li>
+                <li><a href="#"><i class="fas fa-angle-double-right"></i> forensic services</a></li>
+                <li><a href="#"><i class="fas fa-angle-double-right"></i> testimonial</a></li>
+                <li><a href="#"><i class="fas fa-angle-double-right"></i> scientific</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xxl-3 col-lg-3 col-md-6">
+            <div class="footer-weiget">
+              <div class="footer-title">
+                <h4>information</h4>
+                <div class="br-div"></div>
+              </div>
+              <div class="footer-address">
+                <div class="div1">
+                  <strong> <i class="fas fa-phone-alt"></i>phone</strong>
+                  <p>+60142726575</p>
+                </div>
+                <div class="div1">
+                  <strong> <i class="far fa-envelope"></i> email</strong>
+                  <p>mahmasum94@gmail.com</p>
+                </div>
+                <div class="div1">
+                  <strong> <i class="fas fa-map-marker-alt"></i> address</strong>
+                  <p>duara bazar,sunamgonj,sylhet</p>
+                </div>
+          
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="container">
+          <div class="row">
+            <div class="col-xxl-12">
+              <div class="copyright-text text-center">
+                <p>Copyright © 2020 by <a href="#">mah masum</a> All rights reserved </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </footer>
+
+  <div class="scroll-bar">
+    <a href="#scrol-bar"> <i class="fas fa-arrow-up"></i></a>
+  </div>
+
+  <!--footer section end-->
+
+
+
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/js/bootstrap.bundle.min.js">
+  </script>
+
+</body>
+
+</html>

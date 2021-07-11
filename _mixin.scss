@@ -1,0 +1,68 @@
+@mixin defaul-btn{
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    font-weight: 500;
+    padding: 18px 40px;
+    position: relative;
+    z-index: 1;
+    &:hover {
+        &::before {
+            width: 100%;
+        }
+    }
+
+    &::before {
+        content: '';
+        background-color: #111111;
+        width: 0;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        border-color: #111111;
+        z-index: -1;
+        transition: all .3s ease-in-out;
+
+    }
+}
+
+@mixin research-boxx {
+    width: 300px;
+    padding: 15px 30px;
+    background-color: #f6f2fe;
+    position: relative;
+    &::before{
+        content: '';
+        width: 20px;
+        height: 20px;
+        background-color: cyan;
+        border-radius: 50%;
+        position: absolute;
+        right: 105px;
+        top: 59px;
+    }
+
+    i {
+        height: 100px;
+        width: 100px;
+        line-height: 100px;
+        background-color: white;
+        border: 2px dotted cyan;
+        border-radius: 50%;
+        color: cyan;
+        display: inline-block;
+        font-size: 46px;
+        margin-top: 38px;
+        margin-bottom: 15px; 
+    }
+
+    h4 {
+        font-weight: 600;
+        margin-bottom: 15px;
+    }
+    p{
+        color: #767676;
+        font-weight: 500;
+    }
+}

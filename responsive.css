@@ -1,0 +1,126 @@
+@media (max-width: 1200px){
+    .research-section .research-box {
+        width: 261px;
+        padding: 1px 16px;
+    } 
+    .research-section .research-box::before {
+        right: 87px;
+    }
+    .about-section .img-box .img1 {
+        width: 435px;
+
+    }
+    .service-section .service-item {
+        width: 365px;
+    }
+    .project-section .project-item {
+        width: 270px;
+    }
+    .why-section {
+        padding-top: 42px;
+        padding-bottom: -2px;
+    }
+    .why-section .why-text-box li {
+        margin-bottom: 0px;
+
+    }
+    .why-section .why-img-box img {
+        margin-top: 107px;
+    }
+    .team-section .team-box ul {
+        margin-top: -82px;
+        margin-left: 8px;
+    }
+    .progress-section .wrap-progress-bar .p-prg {
+        margin-top: 37px;
+    }
+    .news-section .news-item {
+        width: 360px;
+    }
+}
+
+
+@media (max-width: 992px){
+    .baner-section .carousel-control-prev i {
+        left: -46px;
+    }
+    .baner-section .carousel-control-next i {
+        right: -46px;
+    }
+    .research-section .research-box {
+        width: 450px;
+        padding: 15px 30px;
+    }
+    .research-section .box-1 {
+        margin-top: -150px;
+    }
+    .research-section .box-3 {
+        margin-top: -12px;
+    }
+    .research-section .box-4 {
+        margin-top: 31px;
+    }
+    .research-section .research-box::before {
+        right: 181px;
+    }
+    .about-section .img-box .img1 {
+        width: 360px;
+    }
+    .about-section .wrap-about-text {
+        margin-top: 1px;
+        
+    }
+    .about-section .wrap-about-text h1 {
+        font-size: 30px;
+    }
+    .about-section .wrap-about-text p {
+        font-size: 15px;
+    }
+    .about-section .wrap-about-text li {
+        font-size: 16px;
+    }
+    .about-section .wrap-about-text .about-btn {
+        margin-top: 20px;
+    }
+    .service-section .service-item {
+        width: 300px;
+    }
+    .service-section .service-item {
+        padding: 13px 10px;
+    }
+    .service-section .service-item .icon-box {
+        width: 23%;
+    }
+    .project-section .project-item {
+        width: 230px;
+    }
+    .project-section .project-item .project-text-box h4 {
+        margin-top: 3px;
+        font-size: 20px;
+    }
+    .team-section .team-box ul {
+        margin-top: -128px;
+        margin-left: 40px;
+    }
+    .news-section .news-item {
+        width: 306px;
+    }
+    .footer-section .footer-top .footer-weiget .footer-address {
+        margin-left: 0px;
+    }
+
+}
+@media (max-width: 768px){
+    .header-top .email-box {
+        margin-left: 64px;
+    }
+}
+@media (max-width: 1200px){
+
+}
+@media (max-width: 1200px){
+
+}
+@media (max-width: 1200px){
+
+}
